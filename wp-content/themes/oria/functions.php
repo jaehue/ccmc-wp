@@ -120,17 +120,17 @@ function oria_scripts() {
 
 	wp_enqueue_style( 'oria-style', get_stylesheet_uri() );
 
-	if ( get_theme_mod('body_font_name') !='' ) {
-	    wp_enqueue_style( 'oria-body-fonts', '//fonts.googleapis.com/css?family=' . esc_attr(get_theme_mod('body_font_name')) );
-	} else {
-	    wp_enqueue_style( 'oria-body-fonts', '//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
-	}
+	// if ( get_theme_mod('body_font_name') !='' ) {
+	//     wp_enqueue_style( 'oria-body-fonts', '//fonts.googleapis.com/css?family=' . esc_attr(get_theme_mod('body_font_name')) );
+	// } else {
+	//     wp_enqueue_style( 'oria-body-fonts', '//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
+	// }
 
-	if ( get_theme_mod('headings_font_name') !='' ) {
-	    wp_enqueue_style( 'oria-headings-fonts', '//fonts.googleapis.com/css?family=' . esc_attr(get_theme_mod('headings_font_name')) );
-	} else {
-	    wp_enqueue_style( 'oria-headings-fonts', '//fonts.googleapis.com/css?family=Oswald:300,700');
-	}
+	// if ( get_theme_mod('headings_font_name') !='' ) {
+	//     wp_enqueue_style( 'oria-headings-fonts', '//fonts.googleapis.com/css?family=' . esc_attr(get_theme_mod('headings_font_name')) );
+	// } else {
+	//     wp_enqueue_style( 'oria-headings-fonts', '//fonts.googleapis.com/css?family=Oswald:300,700');
+	// }
 
 	wp_enqueue_style( 'oria-fontawesome', get_template_directory_uri() . '/fonts/font-awesome.min.css' );
 
